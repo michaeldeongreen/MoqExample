@@ -1,0 +1,12 @@
+.vs
+/src/.vs
+/src/packages
+
+/src/MoqExample.Models/bin
+/src/MoqExample.Models/obj
+
+/src/MoqExample.Services/bin
+/src/MoqExample.Services/obj
+
+/src/MoqExample.Unit.Tests/bin
+/src/MoqExample.Unit.Tests/obj
