@@ -1,0 +1,7 @@
+* CreditParserService depends on DoSomethingService
+
+* CreditParserService has a DoSomethingService object in its constructor
+
+* I Unit Test the DoSomethingService using Given/Then/When
+
+* I Unit Test CreditParserService by using Moq to mock DoSomethingService and control what DoSomethingService.Do(string) returns

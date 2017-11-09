@@ -20,7 +20,8 @@ namespace MoqExample.Unit.Tests
         {
             //mock DoSomethingService
             var doSomethingServiceMock = new Mock<IDoSomethingService>();
-            //pass any string and always return true, we don't care about this service
+            //using Moq, 1) pass any string to Do Method and 2) always return true, we don't care about this service
+            //because we have already Unit Tested this service and we want to focus on the CreditParserService
             doSomethingServiceMock.Setup(d => d.Do(It.IsAny<string>())).Returns(true);
 
             //given
@@ -37,7 +38,8 @@ namespace MoqExample.Unit.Tests
         {
             //mock DoSomethingService
             var doSomethingServiceMock = new Mock<IDoSomethingService>();
-            //pass any string and always return true, we don't care about this service
+            //using Moq, 1) pass any string to Do Method and 2) always return true, we don't care about this service
+            //because we have already Unit Tested this service and we want to focus on the CreditParserService
             doSomethingServiceMock.Setup(d => d.Do(It.IsAny<string>())).Returns(true);
 
             //given
